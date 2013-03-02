@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0113563916E18CCB004F1763 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113563816E18CCB004F1763 /* UIKit.framework */; };
+		0113563B16E18CCB004F1763 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113563A16E18CCB004F1763 /* Foundation.framework */; };
+		0113563D16E18CCB004F1763 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113563C16E18CCB004F1763 /* CoreGraphics.framework */; };
+		0113563F16E18CCB004F1763 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0113563E16E18CCB004F1763 /* CoreData.framework */; };
+		0113564516E18CCB004F1763 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0113564316E18CCB004F1763 /* InfoPlist.strings */; };
+		0113564716E18CCB004F1763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113564616E18CCB004F1763 /* main.m */; };
+		0113564B16E18CCB004F1763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113564A16E18CCB004F1763 /* AppDelegate.m */; };
+		0113564D16E18CCB004F1763 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0113564C16E18CCB004F1763 /* Default.png */; };
+		0113564F16E18CCB004F1763 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0113564E16E18CCB004F1763 /* Default@2x.png */; };
+		0113565116E18CCB004F1763 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0113565016E18CCB004F1763 /* Default-568h@2x.png */; };
+		0113565416E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0113565216E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodeld */; };
+		0113565716E18CCB004F1763 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113565616E18CCB004F1763 /* MasterViewController.m */; };
+		0113565A16E18CCB004F1763 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0113565916E18CCB004F1763 /* DetailViewController.m */; };
+		0113565D16E18CCB004F1763 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0113565B16E18CCB004F1763 /* MasterViewController.xib */; };
+		0113566016E18CCB004F1763 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0113565E16E18CCB004F1763 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0113563516E18CCB004F1763 /* Dmap_GoogleMap(iPad).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dmap_GoogleMap(iPad).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0113563816E18CCB004F1763 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0113563A16E18CCB004F1763 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0113563C16E18CCB004F1763 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0113563E16E18CCB004F1763 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0113564216E18CCB004F1763 /* Dmap_GoogleMap(iPad)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dmap_GoogleMap(iPad)-Info.plist"; sourceTree = "<group>"; };
+		0113564416E18CCB004F1763 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0113564616E18CCB004F1763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0113564816E18CCB004F1763 /* Dmap_GoogleMap(iPad)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dmap_GoogleMap(iPad)-Prefix.pch"; sourceTree = "<group>"; };
+		0113564916E18CCB004F1763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0113564A16E18CCB004F1763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0113564C16E18CCB004F1763 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0113564E16E18CCB004F1763 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0113565016E18CCB004F1763 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0113565316E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dmap_GoogleMap_iPad_.xcdatamodel; sourceTree = "<group>"; };
+		0113565516E18CCB004F1763 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0113565616E18CCB004F1763 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0113565816E18CCB004F1763 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0113565916E18CCB004F1763 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0113565C16E18CCB004F1763 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		0113565F16E18CCB004F1763 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0113563216E18CCB004F1763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113563916E18CCB004F1763 /* UIKit.framework in Frameworks */,
+				0113563B16E18CCB004F1763 /* Foundation.framework in Frameworks */,
+				0113563D16E18CCB004F1763 /* CoreGraphics.framework in Frameworks */,
+				0113563F16E18CCB004F1763 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0113562C16E18CCB004F1763 = {
+			isa = PBXGroup;
+			children = (
+				0113564016E18CCB004F1763 /* Dmap_GoogleMap(iPad) */,
+				0113563716E18CCB004F1763 /* Frameworks */,
+				0113563616E18CCB004F1763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0113563616E18CCB004F1763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0113563516E18CCB004F1763 /* Dmap_GoogleMap(iPad).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0113563716E18CCB004F1763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0113563816E18CCB004F1763 /* UIKit.framework */,
+				0113563A16E18CCB004F1763 /* Foundation.framework */,
+				0113563C16E18CCB004F1763 /* CoreGraphics.framework */,
+				0113563E16E18CCB004F1763 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0113564016E18CCB004F1763 /* Dmap_GoogleMap(iPad) */ = {
+			isa = PBXGroup;
+			children = (
+				0113564916E18CCB004F1763 /* AppDelegate.h */,
+				0113564A16E18CCB004F1763 /* AppDelegate.m */,
+				0113565516E18CCB004F1763 /* MasterViewController.h */,
+				0113565616E18CCB004F1763 /* MasterViewController.m */,
+				0113565816E18CCB004F1763 /* DetailViewController.h */,
+				0113565916E18CCB004F1763 /* DetailViewController.m */,
+				0113565B16E18CCB004F1763 /* MasterViewController.xib */,
+				0113565E16E18CCB004F1763 /* DetailViewController.xib */,
+				0113565216E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodeld */,
+				0113564116E18CCB004F1763 /* Supporting Files */,
+			);
+			path = "Dmap_GoogleMap(iPad)";
+			sourceTree = "<group>";
+		};
+		0113564116E18CCB004F1763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0113564216E18CCB004F1763 /* Dmap_GoogleMap(iPad)-Info.plist */,
+				0113564316E18CCB004F1763 /* InfoPlist.strings */,
+				0113564616E18CCB004F1763 /* main.m */,
+				0113564816E18CCB004F1763 /* Dmap_GoogleMap(iPad)-Prefix.pch */,
+				0113564C16E18CCB004F1763 /* Default.png */,
+				0113564E16E18CCB004F1763 /* Default@2x.png */,
+				0113565016E18CCB004F1763 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0113563416E18CCB004F1763 /* Dmap_GoogleMap(iPad) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0113566316E18CCB004F1763 /* Build configuration list for PBXNativeTarget "Dmap_GoogleMap(iPad)" */;
+			buildPhases = (
+				0113563116E18CCB004F1763 /* Sources */,
+				0113563216E18CCB004F1763 /* Frameworks */,
+				0113563316E18CCB004F1763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dmap_GoogleMap(iPad)";
+			productName = "Dmap_GoogleMap(iPad)";
+			productReference = 0113563516E18CCB004F1763 /* Dmap_GoogleMap(iPad).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0113562D16E18CCB004F1763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = zgy;
+			};
+			buildConfigurationList = 0113563016E18CCB004F1763 /* Build configuration list for PBXProject "Dmap_GoogleMap(iPad)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0113562C16E18CCB004F1763;
+			productRefGroup = 0113563616E18CCB004F1763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0113563416E18CCB004F1763 /* Dmap_GoogleMap(iPad) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0113563316E18CCB004F1763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113564516E18CCB004F1763 /* InfoPlist.strings in Resources */,
+				0113564D16E18CCB004F1763 /* Default.png in Resources */,
+				0113564F16E18CCB004F1763 /* Default@2x.png in Resources */,
+				0113565116E18CCB004F1763 /* Default-568h@2x.png in Resources */,
+				0113565D16E18CCB004F1763 /* MasterViewController.xib in Resources */,
+				0113566016E18CCB004F1763 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0113563116E18CCB004F1763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0113564716E18CCB004F1763 /* main.m in Sources */,
+				0113564B16E18CCB004F1763 /* AppDelegate.m in Sources */,
+				0113565416E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodeld in Sources */,
+				0113565716E18CCB004F1763 /* MasterViewController.m in Sources */,
+				0113565A16E18CCB004F1763 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0113564316E18CCB004F1763 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113564416E18CCB004F1763 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0113565B16E18CCB004F1763 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113565C16E18CCB004F1763 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		0113565E16E18CCB004F1763 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0113565F16E18CCB004F1763 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0113566116E18CCB004F1763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0113566216E18CCB004F1763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0113566416E18CCB004F1763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dmap_GoogleMap(iPad)/Dmap_GoogleMap(iPad)-Prefix.pch";
+				INFOPLIST_FILE = "Dmap_GoogleMap(iPad)/Dmap_GoogleMap(iPad)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0113566516E18CCB004F1763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dmap_GoogleMap(iPad)/Dmap_GoogleMap(iPad)-Prefix.pch";
+				INFOPLIST_FILE = "Dmap_GoogleMap(iPad)/Dmap_GoogleMap(iPad)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0113563016E18CCB004F1763 /* Build configuration list for PBXProject "Dmap_GoogleMap(iPad)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113566116E18CCB004F1763 /* Debug */,
+				0113566216E18CCB004F1763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0113566316E18CCB004F1763 /* Build configuration list for PBXNativeTarget "Dmap_GoogleMap(iPad)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0113566416E18CCB004F1763 /* Debug */,
+				0113566516E18CCB004F1763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0113565216E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0113565316E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodel */,
+			);
+			currentVersion = 0113565316E18CCB004F1763 /* Dmap_GoogleMap_iPad_.xcdatamodel */;
+			path = Dmap_GoogleMap_iPad_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0113562D16E18CCB004F1763 /* Project object */;
+}
